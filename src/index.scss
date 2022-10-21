@@ -1,0 +1,52 @@
+@use './scss/variables';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('./scss/_null.scss');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Roboto', 'Source Sans Pro', 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1D1F22;
+  flex: 1 1 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1253px;
+  margin: 0 auto;
+}
+
+._green-btn {
+  background-color: variables.$greenColor;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+._not-avaliable {
+  color: #A6A6A6;
+  border: 1px solid #A6A6A6;
+  background-color: #A6A6A6 0.2;
+  cursor: default;
+
+  &:hover {
+    color: #A6A6A6;
+    background-color: inherit;
+  }
+}
+
+@media (max-width: 1260px) {
+  .container {
+    padding: 0 5px;
+  }
+}
