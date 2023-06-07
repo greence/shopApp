@@ -1,0 +1,29 @@
+.attr-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.attr-button {
+	border: 1px solid #000;
+	min-width: 24px;
+	padding: 1px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Source Sans Pro';
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+
+	&:hover {
+		color: #fff;
+		background-color: #000;
+	}
+}
+
+.selected {
+	color: #fff;
+	background-color: #000;
+}

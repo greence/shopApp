@@ -1,0 +1,27 @@
+.cart-page_item__actions {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 12px;
+}
+
+.cart-page_item_button {
+	width: 45px;
+	height: 45px;
+	border: 1px solid #000;
+}
+
+._add {
+	background: url('../../../img/plus-square.svg') center no-repeat;
+}
+
+._decrease {
+	background: url('../../../img/minus-square.svg') center no-repeat;
+}
+
+.cart-page_item__quantity {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+}

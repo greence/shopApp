@@ -1,0 +1,29 @@
+.cart__image {
+	width: 141px;
+	height: 185px;
+	object-fit: cover;
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.arrow {
+	width: 24px;
+	height: 24px;
+}
+
+.arrow_left {
+	background: url('../../../img/arrow-left.svg') center no-repeat;
+	position: absolute;
+	left: 57px;
+	top: 81px;
+}
+
+.arrow_right {
+	background: url('../../../img/arrow-right.svg') center no-repeat;
+	position: absolute;
+	right: 0;
+	top: 81px;
+}

@@ -1,0 +1,40 @@
+.product__pics {
+	display: flex;
+	width: 730px;
+	margin-right: 100px;
+}
+
+.pics__list {}
+
+.list-item {
+	width: 80px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+.img-wrapper {
+	max-width: 610px;
+	max-height: 511px;
+	overflow: hidden;
+}
+
+.product-img_bg {
+	width: 100%;
+
+	// width: 610px;
+	// height: 511px;
+	// object-fit: cover;
+}
+
+.product_img {
+	width: 100%;
+	max-width: 80px;
+	height: 80px;
+	object-fit: cover;
+	transition: all 0.3s ease 0s;
+
+	&:hover {
+		cursor: pointer;
+		border: 1px solid #000;
+	}
+}

@@ -1,0 +1,15 @@
+.block__title {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 100%;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.attribute-block__list {
+	display: flex;
+	max-width: 292px;
+	margin-bottom: 40px;
+}

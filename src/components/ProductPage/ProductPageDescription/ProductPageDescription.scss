@@ -1,0 +1,44 @@
+.product__description {
+	width: 292px;
+}
+
+.product__title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 90%;
+	margin-bottom: 16px;
+}
+
+.product__subtitle {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 90%;
+	margin-bottom: 43px;
+}
+
+.item-text {}
+
+.product-price {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 75%;
+	margin: 10px 0 20px;
+}
+
+.add-button {
+	width: 292px;
+	padding: 16px 32px;
+	margin-bottom: 40px;
+}
+
+.product-description-text {
+	font-family: 'Roboto';
+	font-weight: 400;
+	line-height: 159.96%;
+	width: 292px;
+}
+
+.size-block__list {
+	display: flex;
+	flex-direction: row;
+}
