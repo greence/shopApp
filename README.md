@@ -12,3 +12,6 @@
   4. Filtering products by category name for all of the categories.
   5. Currency change of the store to one of the available currencies.
   6. Recount of total sum.
+
+### Class-components was required.
+
